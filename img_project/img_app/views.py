@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 import socket
-from img_project_project.context_processors import gunicorn_port
+from img_project.context_processors import gunicorn_port
 
 hostname = socket.gethostname()
 
