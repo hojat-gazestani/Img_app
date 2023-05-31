@@ -5,5 +5,6 @@ urlpatterns = [
     path('', views.img, name='img'),
     path('img', views.img, name='img'),
     path('img1', views.img1, name='img1'),
-    path('img2', views.img2, name='img'),
+    path('img2', views.img2, name='img2'),
+    path('image.jpg', views.githublink, name='githublink'),
 ]

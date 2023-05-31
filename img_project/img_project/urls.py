@@ -21,6 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('img_app.urls')),
     path('img', include('img_app.urls')),
+    path('img/', include('img_app.urls')),
     path('img1', include('img_app.urls')),
     path('img2', include('img_app.urls')),
 ]
+
