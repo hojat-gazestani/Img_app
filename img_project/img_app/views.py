@@ -20,7 +20,7 @@ def githublink(request):
     return HttpResponse(f"<img src='{image_url}' alt='GitHub Image'>")
 
 #def githublink(request):
-#    image_url = "https://github.com/hojat-gazestani/DevOps/blob/main/haproxy/pictures/02-OSI%20model.jpg"
+#    image_url = "https://www.nethightech.com/training"
 #    try:
 #        image_data = urlopen(image_url).read()
 #        return HttpResponse(image_data, content_type="image/jpeg")
