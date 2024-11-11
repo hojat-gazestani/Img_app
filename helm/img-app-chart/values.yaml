@@ -1,0 +1,11 @@
+# Default values for img-app-chart.
+# Override these values in environment-specific files.
+replicaCount: 1
+image:
+  repository: nginx
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
